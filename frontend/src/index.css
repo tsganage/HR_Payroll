@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Safe area support for notched phones */
+:root {
+    --sat: env(safe-area-inset-top);
+    --sar: env(safe-area-inset-right);
+    --sab: env(safe-area-inset-bottom);
+    --sal: env(safe-area-inset-left);
+}
+
+body {
+    @apply bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth scrolling on mobile */
+* {
+    -webkit-overflow-scrolling: touch;
+}
