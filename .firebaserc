@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "invoice-app-6bb6f"
+  },
+  "targets": {
+    "invoice-app-6bb6f": {
+      "hosting": {
+        "hr-payroll": [
+          "hr-payroll"
+        ]
+      }
+    }
+  }
+}
