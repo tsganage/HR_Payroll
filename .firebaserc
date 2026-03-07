@@ -6,7 +6,7 @@
     "invoice-app-6bb6f": {
       "hosting": {
         "hr-payroll": [
-          "hr-payroll"
+          "hr-payroll-invoice-app"
         ]
       }
     }
